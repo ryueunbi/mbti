@@ -1,13 +1,27 @@
 @font-face {
-    font-family: 'Cafe24Oneprettynight';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+*{
+    font-family: 'BMJUA';
+    font-size: 16px;
+}
+
+.mt-7{
+    margin-top: 7px;
 }
 
 article{
     display: flex;
     flex-direction: column;
+}
+
+.progress{
+    border-radius: 3rem;
+    margin: 0 20px;
 }
 
 .question{
@@ -24,11 +38,55 @@ article{
     margin: 0 auto;
 }
 
-*{
-    font-family: 'Cafe24Oneprettynight';   
+#title{
+    margin: 0 20px;
 }
 
+.title{
+    font-size: 3rem;
+}
 
-.fz-1{
-    font-size: 1.5em;
+.sub-title{
+    font-family: 'Notosans';
+    font-size: 1.5rem;
+    letter-spacing: -1.5px;
+}
+
+#sub-title-01, #sub-title-02, #solution-title{
+    font-family: 'Notosans';
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    color: gold;
+    margin-bottom: 0.3rem !important;
+}
+
+#sub-01, #sub-02, #solution{
+    font-family: 'Notosans';
+    font-size: 1rem;
+    letter-spacing: -1.5px;
+    color: #333;
+}
+
+.btn{
+    font-size: 1.7em;
+    margin: 0 20px;
+}
+
+#bti{
+    color: gold;
+    font-size: 2.5rem;
+}
+
+#animal, #explain{
+    font-size: 2.5rem;
+}
+
+.return-btn{
+    border: none;
+}
+
+.testBtn{
+    width: 50.5%;
+    margin: 0 auto;
 }
