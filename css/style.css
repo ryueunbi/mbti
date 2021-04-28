@@ -42,19 +42,13 @@ article{
     margin: 0 20px;
 }
 
-.title{
-    font-size: 3rem;
-}
-
 .sub-title{
     font-family: 'Notosans';
-    font-size: 1.5rem;
     letter-spacing: -1.5px;
 }
 
 #sub-title-01, #sub-title-02, #solution-title{
     font-family: 'Notosans';
-    font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: -1.5px;
     color: #fcd240;
@@ -62,33 +56,63 @@ article{
 
 #sub-01, #sub-02, #solution{
     font-family: 'Notosans';
-    font-size: 1rem;
     letter-spacing: -1.5px;
     color: #333;
-    text-align: left;
     margin-left: 50%;
     transform: translateX(-50%);
 }
 
 .btn{
-    font-size: 1.7em;
     margin: 0 20px;
 }
 
-#bti, #animal{
+#bti{
     color: gold;
-    font-size: 2rem;
 }
 
 #animal{
     color: #333;
-    font-size: 2rem;
 }
 
 #explain{
     color: #333;
+}
+
+.w-90{
+    width: 90%;
+}
+
+
+/* font size */
+.fz-1{
+    font-size: 1rem;
+}
+
+.fz-13{
+    font-size: 1.3rem;
+}
+
+.fz-15{
+    font-size: 1.5rem;
+}
+
+.fz-17{
+    font-size: 1.7rem;
+}
+
+.fz-2{
+    font-size: 2rem;
+}
+
+.fz-25{
     font-size: 2.5rem;
 }
+
+.fz-3{
+    font-size: 3rem;
+}
+/* font size end */
+
 
 .return-btn{
     border: none;
@@ -103,4 +127,95 @@ article{
     height: auto;
     background: #f7f7f7;    
     border-radius: 4px;
+}
+
+
+@media(max-width: 1025px){
+    .w-50{
+        width: 80% !important;
+    }
+    #sub-01, #sub-02, #solution{
+        margin-left: 55%;
+    }
+}
+
+@media(max-width: 769px){
+    .start>button.w-25{
+        width: 40% !important;
+    }
+    .w-75{
+        width: 90% !important;
+    }
+    .w-50{
+        width: 85% !important;
+    }
+    .w-90{
+        width: 90% !important;
+    }
+    #sub-01, #sub-02, #solution{
+        margin-left: 51%;
+    }
+}
+
+@media(max-width: 541px){
+    .fz-1{
+        font-size: 0.8rem;
+    }
+    .fz-13{
+        font-size: 1.1rem;
+    }
+    .fz-15{
+        font-size: 1.2rem;
+    }
+    .fz-17{
+        font-size: 1.3rem;
+    }
+    .fz-2{
+        font-size: 1.5rem;
+    }
+    .fz-25{
+        font-size: 2rem;
+    }
+    .m-5{
+        margin: 2.5rem !important;
+    }
+    .p-5{
+        padding: 1.5rem!important;
+    }
+    .w-90{
+        width: 100%;
+    }
+}
+
+@media(max-width: 415px){
+    .fz-3{
+        font-size: 2.7rem;
+    }
+    .fz-15{
+        font-size: 1.2rem;
+    }
+    .fz-2{
+        font-size: 1.35rem;
+    }
+    .fz-25{
+        font-size: 1.6rem;
+    }
+    .start>button.w-25{
+        width: 55% !important;
+    }
+    .w-50{
+        width: 95% !important;
+    }
+    .w-90{
+        width: 100% !important;
+    }
+    #sub-01, #sub-02, #solution{
+        margin-left: 50%;
+    }
+    .p-5{
+        padding: 1rem !important;
+    }
+    .m-5{
+        margin: 1.5rem !important;
+    }
 }
