@@ -34,7 +34,7 @@ article{
 
 #img{
     width: 300px;
-    height: 300px;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -57,8 +57,7 @@ article{
     font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: -1.5px;
-    color: gold;
-    margin-bottom: 0.3rem !important;
+    color: #fcd240;
 }
 
 #sub-01, #sub-02, #solution{
@@ -66,6 +65,9 @@ article{
     font-size: 1rem;
     letter-spacing: -1.5px;
     color: #333;
+    text-align: left;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 .btn{
@@ -73,12 +75,18 @@ article{
     margin: 0 20px;
 }
 
-#bti{
+#bti, #animal{
     color: gold;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
-#animal, #explain{
+#animal{
+    color: #333;
+    font-size: 2rem;
+}
+
+#explain{
+    color: #333;
     font-size: 2.5rem;
 }
 
@@ -89,4 +97,10 @@ article{
 .testBtn{
     width: 50.5%;
     margin: 0 auto;
+}
+
+.final{
+    height: auto;
+    background: #f7f7f7;    
+    border-radius: 4px;
 }
