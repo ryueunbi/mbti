@@ -116,6 +116,7 @@ article{
 
 .return-btn{
     border: none;
+    transition: all .3s ease-out 0s;
 }
 
 .testBtn{
@@ -191,6 +192,9 @@ article{
     .fz-3{
         font-size: 2.7rem;
     }
+    .fz-13{
+        font-size: 1rem;
+    }
     .fz-15{
         font-size: 1.2rem;
     }
@@ -217,5 +221,20 @@ article{
     }
     .m-5{
         margin: 1.5rem !important;
+    }
+}
+
+@media(max-width: 281px){
+    .result #img{
+        width: 250px;
+    }
+    .start>button.w-25{
+        width: 65% !important;
+    }
+    .question .mt-5{
+        margin-top: 1rem !important;
+    }
+    footer .mt-7{
+        margin-top: 60px;
     }
 }
